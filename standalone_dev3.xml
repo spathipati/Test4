@@ -857,6 +857,58 @@
 							</property>
             </properties>
           </job-acquisition>
+          <job-acquisition name="citi">
+            <properties>
+              <property name="lockTimeInMillis">
+								400000
+							</property>
+              <property name="waitTimeInMillis">
+								8000
+							</property>
+              <property name="maxJobsPerAcquisition">
+								5
+							</property>
+            </properties>
+          </job-acquisition>
+          <job-acquisition name="citi">
+            <properties>
+              <property name="lockTimeInMillis">
+								400000
+							</property>
+              <property name="waitTimeInMillis">
+								8000
+							</property>
+              <property name="maxJobsPerAcquisition">
+								5
+							</property>
+            </properties>
+          </job-acquisition>
+          <job-acquisition name="citi">
+            <properties>
+              <property name="lockTimeInMillis">
+								400000
+							</property>
+              <property name="waitTimeInMillis">
+								8000
+							</property>
+              <property name="maxJobsPerAcquisition">
+								5
+							</property>
+            </properties>
+          </job-acquisition>
+          <job-acquisition name="citi1">
+            <properties>
+              <property name="lockTimeInMillis">
+								400000
+							</property>
+              <property name="waitTimeInMillis">
+								8000
+							</property>
+              <property name="maxJobsPerAcquisition">
+								5
+							</property>
+            </properties>
+          </job-acquisition>
           <job-acquisition name="lenovo">
             <properties>
               <property name="lockTimeInMillis">
