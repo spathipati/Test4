@@ -556,6 +556,78 @@
             </plugin>
           </plugins>
         </process-engine>
+        <process-engine name="citi">
+          <datasource>java:jboss/datasources/ProcessEngine</datasource>
+          <history-level>full</history-level>
+          <properties>
+            <property name="databaseTablePrefix">citi.</property>
+            <property name="jobExecutorAcquisitionName">citi</property>
+            <property name="isAutoSchemaUpdate">false</property>
+            <property name="authorizationEnabled">true</property>
+            <property name="jobExecutorDeploymentAware">false</property>
+            <property name="metricsEnabled">true</property>
+          </properties>
+          <plugins>
+            <!-- plugin enabling Process Application event listener support -->
+            <plugin>
+              <class>org.camunda.bpm.application.impl.event.ProcessApplicationEventListenerPlugin</class>
+            </plugin>
+            <plugin>
+              <class>org.camunda.spin.plugin.impl.SpinProcessEnginePlugin</class>
+            </plugin>
+            <plugin>
+              <class>org.camunda.connect.plugin.impl.ConnectProcessEnginePlugin</class>
+            </plugin>
+          </plugins>
+        </process-engine>
+        <process-engine name="citi">
+          <datasource>java:jboss/datasources/ProcessEngine</datasource>
+          <history-level>full</history-level>
+          <properties>
+            <property name="databaseTablePrefix">citi.</property>
+            <property name="jobExecutorAcquisitionName">citi</property>
+            <property name="isAutoSchemaUpdate">false</property>
+            <property name="authorizationEnabled">true</property>
+            <property name="jobExecutorDeploymentAware">false</property>
+            <property name="metricsEnabled">true</property>
+          </properties>
+          <plugins>
+            <!-- plugin enabling Process Application event listener support -->
+            <plugin>
+              <class>org.camunda.bpm.application.impl.event.ProcessApplicationEventListenerPlugin</class>
+            </plugin>
+            <plugin>
+              <class>org.camunda.spin.plugin.impl.SpinProcessEnginePlugin</class>
+            </plugin>
+            <plugin>
+              <class>org.camunda.connect.plugin.impl.ConnectProcessEnginePlugin</class>
+            </plugin>
+          </plugins>
+        </process-engine>
+        <process-engine name="citi1">
+          <datasource>java:jboss/datasources/ProcessEngine</datasource>
+          <history-level>full</history-level>
+          <properties>
+            <property name="databaseTablePrefix">citi.</property>
+            <property name="jobExecutorAcquisitionName">citi</property>
+            <property name="isAutoSchemaUpdate">false</property>
+            <property name="authorizationEnabled">true</property>
+            <property name="jobExecutorDeploymentAware">false</property>
+            <property name="metricsEnabled">true</property>
+          </properties>
+          <plugins>
+            <!-- plugin enabling Process Application event listener support -->
+            <plugin>
+              <class>org.camunda.bpm.application.impl.event.ProcessApplicationEventListenerPlugin</class>
+            </plugin>
+            <plugin>
+              <class>org.camunda.spin.plugin.impl.SpinProcessEnginePlugin</class>
+            </plugin>
+            <plugin>
+              <class>org.camunda.connect.plugin.impl.ConnectProcessEnginePlugin</class>
+            </plugin>
+          </plugins>
+        </process-engine>
         <process-engine name="citi2">
           <datasource>java:jboss/datasources/ProcessEngine</datasource>
           <history-level>full</history-level>
